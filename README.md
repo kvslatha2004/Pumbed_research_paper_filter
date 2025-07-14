@@ -1,2 +1,15 @@
-# Pumbed_research_paper_filter
-Fetches research papers from PubMed using a user-provided query . Parses author affiliation data from the retrieved XML metadata ,  Exports the filtered data into a CSV file with fields like PubMed ID, title, affiliations, and email .
+# PubMed Paper Fetcher
+
+This CLI tool fetches research papers from PubMed based on a user query, and filters papers that have at least one author affiliated with a pharmaceutical or biotech company.
+
+## How to Use
+
+### 1. Setup
+
+Install dependencies using [Poetry](https://python-poetry.org/):
+
+```bash
+poetry install
+
+
+
